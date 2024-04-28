@@ -17,8 +17,6 @@ import {
 } from "@/components/ui/select"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button";
-import { Label } from "@/components/ui/label"
-import { Checkbox } from "@/components/ui/checkbox"
 import { useEffect, useState } from "react";
 
 export default function SingleField({ onApply, onDelete, ...fieldProps }) {
