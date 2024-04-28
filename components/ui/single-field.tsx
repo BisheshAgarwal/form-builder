@@ -27,6 +27,7 @@ export default function SingleField({ onApply, onDelete, ...fieldProps }) {
 
   useEffect(() => {
     setValues({ ...fieldProps })
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   const valueChangeHandler = (key, value) => {
